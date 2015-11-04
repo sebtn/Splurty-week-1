@@ -28,7 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 #include boostrap
-gem 'bootstrap-sass', '~> 3.3.4'
+gem 'bootstrap-sass', '~> 3.3.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
