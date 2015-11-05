@@ -17,7 +17,7 @@
 			</div>  		  
 		</div>
 		<div class="col-xs-4 slogan">
-			Filling my bag with tricks since forever
+			Filling my splurty bag since monday.
 		</div>
 		<div class="col-xs-5 links">
 			<%= link_to 'Contribute', '#' %>
@@ -27,7 +27,25 @@
 	<hr />
 	<br class="clear" />
 
-<%= yield %>
+ <div class="container">
+	<%= yield %>
+ </div>
+
+ <div class="footer">
+	<div class="container">
+		<div class="col-xs-6">
+			<%= link_to "This isn't enough, I need more...", "#", :class => 'next-quote' %>
+		</div>	
+		<div class="col-xs-6 footer-blurb">
+			Proudly made in Montreal, Qc by <a href="http://thefirehoseproject.com">Seb</a><br />
+			Want to build a splurty web app - <a href=" http://thefirehoseproject.com">Learn how to code here</a>
+		</div>
+	 </div>
+   </div> 			
+
+		
+	</div>
+ </div>	
 
 </body>
 </html>
